@@ -1,2 +1,2 @@
 # PythonBI_Senai
-Python and PowerBI curse in Senai School
+Python and PowerBI course in Senai School
