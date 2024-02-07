@@ -36,6 +36,9 @@ if age >=18 and age <=65:
 else:
     print("NOT OK!")
 
+interval = range(18, 65)
 
-# if age range(18, 65):
-#     print(age)
+if age in interval:
+    print(f'{age} OK!')
+else:
+    print(f'{age} NO!')
