@@ -12,7 +12,8 @@ print(pessoa.get("idade"))
 # Adicionando novo par chave-valor
 pessoa["cidade"] = "São Paulo"
 print(pessoa)
-
+print(f"Chaves: {pessoa.keys()}")
+print(f"Valores: {pessoa.values()}")
 
 # Dicionário
 aluno = {

@@ -4,22 +4,24 @@ numeros = [1, 2, 3, 4, 5]
 
 # Adicionando elementos a uma lista
 frutas.append("laranja")
-
-# Tuplas (imutáveis)
-coordenadas = (4, 5)
-cores_rgb = (255, 0, 0)
-
-# Listas
-frutas = ["maçã", "banana", "uva"]
-
-# Adicionando elemento
-frutas.append("laranja")
+frutas.append("morango")
+print(frutas)
 
 # Acessando elementos
 print(frutas[0])
-print(frutas[1])
+print(frutas[:4])
 
-# Tuplas
-coordenadas = (4, 5)
-print(coordenadas[0], coordenadas[1])
+
+
+# Tuplas (imutáveis)
+coordenadas = (4, 5, 6, 7)
+cores_rgb = (255, 0, 0)
+print(coordenadas[0], coordenadas[3])
+
+for fruta in frutas:
+    print(fruta)
+
+for coord in coordenadas:
+    print(coord)
+
 
