@@ -15,3 +15,18 @@ print(f'O nome completo é {nome_completo}')
 contador = 0
 contador = contador + 1
 print(contador)
+
+# Variáveis em Estruturas de Controle
+idade = 18
+if idade >= 18:
+    pode_votar = True
+    print("Pode votar!")
+else:
+    pode_votar = False
+    print("Não pode votar!")
+
+# Format str + int in print
+numero = 51
+texto = "é pinga!"
+print(f'{numero} ' + texto)
+
