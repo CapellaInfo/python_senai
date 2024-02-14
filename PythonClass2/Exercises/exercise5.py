@@ -1,9 +1,5 @@
-
-
 # Crie três variáveis, a, b e c, representando os coeficientes de uma equação quadrática (ax^2 + bx + c).
 # Calcule as raízes da equação usando a fórmula de Bhaskara.
-import math
-
 a = 1
 b = -10
 c = 25

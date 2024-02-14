@@ -24,14 +24,14 @@ else:
 # Utilize operadores lógicos para verificar e imprimir quais números são múltiplos de 3 e ímpares.
 number_list = [1, 5, 7, 10, 29, 33, 45, 60, 99]
 for number in number_list:
-    if number %3 == 0 and number%2 ==1:
+    if number %3 == 0 and number%2 == 1:
         print(number)
 
 # Peça ao usuário para digitar a sua idade e verifique se ela está dentro do intervalo de 18 a 65 anos. 
 # Imprima uma mensagem correspondente.
 age = int(input("Put your age:"))
 
-if age >=18 and age <=65:
+if 18 <= age <= 65:
     print("Your age is OK!")
 else:
     print("NOT OK!")
