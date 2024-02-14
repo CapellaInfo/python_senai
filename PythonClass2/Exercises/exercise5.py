@@ -1,13 +1,13 @@
 # Crie três variáveis, a, b e c, representando os coeficientes de uma equação quadrática (ax^2 + bx + c).
 # Calcule as raízes da equação usando a fórmula de Bhaskara.
-a = 1
-b = -10
-c = 25
+a = int(input("Informe o valor da variável a:"))
+b = int(input("Informe o valor da variável b:"))
+c = int(input("Informe o valor da variável c:"))
 
 delta = (b**2) - 4 * a * c
 
 if a == 0:
-    print("O valor de a, deve ser diferente de 0")
+    print("O valor de a deve ser diferente de 0")
 elif delta < 0:
     print("Sem raízes reais")
 else:
@@ -22,19 +22,16 @@ print(x2)
 
 option = int(input("Informe a conversão desejada! 1 - Euro | 2 - Reais"))
 
-
 taxa_euro = 0.93
 taxa_real = 4.97
 
 if option == 1:
     value = float(input("Informe o valor em dólares: "))
     euro = taxa_euro * value
-    print(f"O valor correspondente é {euro} euros!")
-elif option != 1 or option != 2:
-    print("ERRO!")
+    print(f"O valor correspondente é {euro:.2f} euros!")
 else:
     value = float(input("Informe o valor em dólares: "))
     real = taxa_real * value
-    print(f"O valor correspondente é {real} reais!")
+    print(f"O valor correspondente é {real:.2f} reais!")
     
 
