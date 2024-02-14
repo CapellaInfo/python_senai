@@ -46,6 +46,7 @@ def jogo_da_velha():
                 contO = 0
                 contO +=1
                 print(contO)
+                # tabuleiro.remove(linha)
             else:
                 contX = 0
                 contX +=1
