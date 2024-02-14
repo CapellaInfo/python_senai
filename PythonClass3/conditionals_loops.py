@@ -9,7 +9,6 @@ else:
     print("Você é um(a) idoso(a).")
 
 
-# LOOPS:
 # Loop for para imprimir os números pares de 0 a 9
 for numero in range(10):
     if numero % 2 == 0:
