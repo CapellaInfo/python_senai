@@ -1,8 +1,5 @@
 # Manipulação de Listas:
 # Crie uma lista de números inteiros e ordene-a em ordem crescente.
-from cgi import print_arguments
-
-
 list_1 = [1,2,3,4,5,6,7,8,9]
 print(list_1)
 # Adicione o número 10 ao final da lista.
@@ -27,9 +24,8 @@ print(list_2)
 # Listas Aninhadas:
 # Crie uma lista aninhada contendo duas sublistas: 
 # uma com nomes de cores e outra com códigos hexadecimais correspondentes.
-# Acesse e imprima o código hexadecimal da cor "verde".
-
 list_aninhada = [["red", "green", "blue"], ["000", "111", "010"]]
+# Acesse e imprima o código hexadecimal da cor "verde".
 print(list_aninhada[0][1])
 
 
