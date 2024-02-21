@@ -2,7 +2,9 @@
 letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
 consonants = ["a", "e", "i", "o", "u"]
 cont = 0
+vogals = []
 
 for letters in consonants:
-    if consonants == letters:
+    if consonants in letters:
         print(letters)
+        vogals.append(consonants)
