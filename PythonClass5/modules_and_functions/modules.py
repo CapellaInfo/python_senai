@@ -1,7 +1,7 @@
 import math
 from datetime import datetime
-import operacoes # importando o modulo criado
-import estatistica # importando o modulo criado
+import PythonClass5.modules.operacoes as operacoes # importando o modulo criado
+import PythonClass5.modules.estatistica as estatistica # importando o modulo criado
 
 # Módulo Matemático (math):
 raiz_quadrada = math.sqrt(25)  # Calcula a raiz quadrada de 25
