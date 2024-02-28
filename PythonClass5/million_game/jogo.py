@@ -1,35 +1,51 @@
 from perguntas import perguntas
+import locale
+import random
+
+locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
 def jogar():
     money = 0
     decisao_continuar = True
-    continuar_sair = True
+    perguntas_aleatorias = [] # lista
+    perguntas_nivel = {} # dicionario
+
+
+    for pergunta in perguntas:
+        dificuldade = pergunta["dificuldade"]
+        if dificuldade not in perguntas_nivel:
+            perguntas_nivel[dificuldade] = []
+        perguntas_nivel[dificuldade].append(pergunta)
+
+    for dificuldade in ["fácil", "média", "difícil"]:
+        if dificuldade in perguntas_nivel:
+            perguntas_nivel = perguntas_nivel[dificuldade]
+            random.shuffle(perguntas_nivel)
+            perguntas_aleatorias.extend(perguntas_nivel)
+
 
     while decisao_continuar:
-        for pergunta in perguntas:
+        for pergunta in perguntas_aleatorias:
             print(pergunta["pergunta"])
             for alternativa in pergunta["alternativas"]:
                 print(alternativa)
-            resposta = input("Qual é a sua resposta? ")
+            resposta = input("Escolha uma alternativa: ")
             if resposta.upper() == pergunta["resposta"]:
-                print("Resposta correta!\n")
-                money += 1
+                print("Resposta CORRETA!\n")
+                money += 100000
                 print
             else:
-                print("Resposta incorreta.")
-            decisao = input("Deseja continuar ou sair?")
-            while continuar_sair:
-                if decisao.lower() == 'sair':
-                    decisao_continuar = False
-                    continuar_sair = False
-                    break
-                elif decisao.lower() == 'continuar':
-                    decisao_continuar = True
-                    continuar_sair = False
-                else:
-                    print("Informe o que deseja")
+                print("Resposta ERRADA.")
+            if pergunta == perguntas_aleatorias[-1]:
+                decisao_continuar = False
+                break
+            decisao = input("Deseja PARAR, digite sair?")
+            if decisao.lower() == 'sair':
+                decisao_continuar = False
+                print("Parabéns!!! Você decidiu parar e ganhou: " + locale.currency(money, grouping=True))
+                break
 
     print("Fim do jogo!")
-    print("Você Ganhou: R$" + str(money) + " de Reais!")
+    print("Você Ganhou: " + locale.currency(money, grouping=True))
 
 jogar()

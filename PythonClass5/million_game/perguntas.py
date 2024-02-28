@@ -1,55 +1,62 @@
 perguntas = [
     {
-        "pergunta": "Qual é a capital do Brasil?",
-        "alternativas": ["A) São Paulo", "B) Rio de Janeiro", "C) Brasília", "D) Salvador"],
-        "resposta": "C"
+        "pergunta": "Qual é a capital da França?",
+        "alternativas": ["A) Paris", "B) Londres", "C) Berlim", "D) Roma"],
+        "resposta": "A",
+        "dificuldade": "fácil"
+    },
+    {
+        "pergunta": "Qual é o maior país da América do Sul em área territorial?",
+        "alternativas": ["A) Brasil", "B) Argentina", "C) Colômbia", "D) Chile"],
+        "resposta": "A",
+        "dificuldade": "fácil"
+    },
+    {
+        "pergunta": "Em que país fica a Grande Muralha da China?",
+        "alternativas": ["A) China", "B) Japão", "C) Coreia do Sul", "D) Vietnã"],
+        "resposta": "A",
+        "dificuldade": "fácil"
     },
     {
         "pergunta": "Qual é o país mais populoso do mundo?",
-        "alternativas": ["A) Índia", "B) Estados Unidos", "C) China", "D) Brasil"],
-        "resposta": "C"
+        "alternativas": ["A) Índia", "B) China", "C) Estados Unidos", "D) Indonésia"],
+        "resposta": "B",
+        "dificuldade": "média"
     },
     {
-        "pergunta": "Em qual país se localiza a Torre Eiffel?",
-        "alternativas": ["A) Espanha", "B) Itália", "C) França", "D) Alemanha"],
-        "resposta": "C"
+        "pergunta": "Qual destes países não faz parte da União Europeia?",
+        "alternativas": ["A) Alemanha", "B) Suíça", "C) Espanha", "D) Itália"],
+        "resposta": "B",
+        "dificuldade": "média"
     },
     {
-        "pergunta": "Qual é o maior país do mundo em extensão territorial?",
-        "alternativas": ["A) China", "B) Rússia", "C) Canadá", "D) Estados Unidos"],
-        "resposta": "B"
+        "pergunta": "Qual é o país africano cuja capital é Cairo?",
+        "alternativas": ["A) Egito", "B) Argélia", "C) Nigéria", "D) África do Sul"],
+        "resposta": "A",
+        "dificuldade": "média"
     },
     {
-        "pergunta": "Em qual país se localiza o Taj Mahal?",
-        "alternativas": ["A) China", "B) Índia", "C) Japão", "D) Indonésia"],
-        "resposta": "B"
+        "pergunta": "Em que país fica a cidade de Moscou?",
+        "alternativas": ["A) Rússia", "B) Ucrânia", "C) Polônia", "D) Alemanha"],
+        "resposta": "A",
+        "dificuldade": "difícil"
     },
     {
-        "pergunta": "Qual é o país conhecido como a Terra do Sol Nascente?",
-        "alternativas": ["A) China", "B) Coreia do Sul", "C) Japão", "D) Tailândia"],
-        "resposta": "C"
+        "pergunta": "Qual é o país com a maior área territorial do mundo?",
+        "alternativas": ["A) Rússia", "B) Canadá", "C) Estados Unidos", "D) China"],
+        "resposta": "A",
+        "dificuldade": "difícil"
     },
     {
-        "pergunta": "Qual é o país mais rico do mundo em termos de PIB (Produto Interno Bruto)?",
-        "alternativas": ["A) Estados Unidos", "B) China", "C) Alemanha", "D) Japão"],
-        "resposta": "A"
+        "pergunta": "Qual é o país com a maior quantidade de ilhas do mundo?",
+        "alternativas": ["A) Indonésia", "B) Filipinas", "C) Japão", "D) Maldivas"],
+        "resposta": "A",
+        "dificuldade": "difícil"
     },
     {
-        "pergunta": "Em qual país se localiza a Grande Barreira de Coral?",
-        "alternativas": ["A) Austrália", "B) Indonésia", "C) Filipinas", "D) Malásia"],
-        "resposta": "A"
+        "pergunta": "Qual é o país onde fica localizado o Monte Everest?",
+        "alternativas": ["A) China", "B) Nepal", "C) Índia", "D) Butão"],
+        "resposta": "B",
+        "dificuldade": "difícil"
     },
-    {
-        "pergunta": "Qual é o país com a maior população muçulmana do mundo?",
-        "alternativas": ["A) Arábia Saudita", "B) Irã", "C) Indonésia", "D) Paquistão"],
-        "resposta": "C"
-    },
-    {
-        "pergunta": "Em qual país se localiza o Kilimanjaro, a montanha mais alta da África?",
-        "alternativas": ["A) Quênia", "B) Tanzânia", "C) África do Sul", "D) Uganda"],
-        "resposta": "B"
-    }
 ]
-
-
-
