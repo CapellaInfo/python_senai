@@ -47,6 +47,20 @@ print("Idade média dos funcionários:")
 idade_media = df['idade'].mean()
 print(idade_media)
 
-print("Salário dos funcionários:")
-salario_medio_all = df['salario'].sum()
-print(salario_medio_all)
+# Criando um arquivo csv com o dataframe
+df.to_csv('PythonClass7/dados_funcionarios.csv')
+
+# 5. Visualização de Dados
+print("\n5. Visualização de Dados:")
+plt.hist(df['idade'], bins=10, color='skyblue', edgecolor='black')
+plt.xlabel('Idade')
+plt.ylabel('Frequência')
+plt.title('Distribuição de Idades dos Funcionários')
+plt.show()
+
+
+plt.scatter(df['idade'], df['salario'], color='green')
+plt.xlabel('Idade')
+plt.ylabel('Salário')
+plt.title('Idade vs Salário dos Funcionários')
+plt.show()
