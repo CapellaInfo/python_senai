@@ -28,4 +28,8 @@ ind_des.mean()
 ind_des.std()
 ind_des.describe()
 igm_df.describe()
-igm_df[igm_df['regiao']=='NORDESTE']
+print(igm_df[igm_df['regiao']=='NORDESTE'])
+
+
+limeira = igm_df[igm_df['municipio']=='LIMEIRA']
+print(limeira.T)
