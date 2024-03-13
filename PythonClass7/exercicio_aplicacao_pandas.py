@@ -35,3 +35,18 @@ print(maior_salario)
 print("Salário com aumento de 10%: ")
 df['salario_aumento'] = df['salario'] * 1.10
 print(df)
+
+# Agregação de dados
+salario_medio = df['salario'].mean()
+print(f'Salário médio antes do ajuste: {salario_medio:.2f}')
+
+salario_medio_a = df['salario_aumento'].mean()
+print(f'Salário médio depois do ajuste: {salario_medio_a:.2f}')
+
+print("Idade média dos funcionários:")
+idade_media = df['idade'].mean()
+print(idade_media)
+
+print("Salário dos funcionários:")
+salario_medio_all = df['salario'].sum()
+print(salario_medio_all)
