@@ -1,4 +1,3 @@
-#Duo_moura_2024
 import pandas as pd
 import yaml
 import matplotlib.pyplot as plt
