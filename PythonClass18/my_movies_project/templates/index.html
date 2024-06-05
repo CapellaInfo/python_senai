@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>Análise dos filmes</title>
+</head>
+<body>
+    <h1>Sumários dados dos filmes</h1>
+    <div>{{ resumo|safe }}</div> <br>
+    <h1>5 Primeiros Filmes</h1>
+    <div>{{ head|safe }}</div>
+    <h1>Gráficos Interativos</h1>
+    <li><a href="/plot1">Distribuição das Avaliações dos Filmes</a></li>
+    <li><a href="/plot2">Box Plot das Avaliações por Gênero</a></li>
+    <li><a href="/plot3">Relação entre Votos, Avaliações e Duração dos Filmes</a></li>
+</body>
+</html>
